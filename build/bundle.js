@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.getElementById("changetext"),t=document.getElementById("newtext"),n=document.getElementById("oldtext"),l=!1;function d(){l?(t.style.display="block",n.style.display="none"):(t.style.display="none",n.style.display="block")}d(),e.addEventListener("click",(function(){l=!l,d()}))})();
